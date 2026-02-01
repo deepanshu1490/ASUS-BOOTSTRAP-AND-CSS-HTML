@@ -1,0 +1,73 @@
+.pricing {
+    width: 100%;
+    height: 80vh;
+    /* background-color: aqua; */
+    margin-top: 10px;
+}
+
+
+.pricing h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 15rem;
+}
+
+
+.pricing p{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+.card:hover {
+   /* background-color: yellow;  */
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.glow-hover {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.glow-hover:hover {
+  box-shadow: 0 0 8px rgba(253, 249, 13, 0.6),
+              0 0 18px rgba(253, 249, 13, 0.8),
+              0 0 30px rgba(253, 241, 13, 0.6);
+  transform: translateY(-2px);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    /* margin: 20px; */
+    background-color: black;
+    color: white;
+}
+
+
+.column h3 {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.column ul li {
+    gap: 30px;
+    list-style:circle;
+    margin: 20px;
+cursor: pointer;
+}
+
+.stongowner {
+    background-color: black;
+    color: white;
+    text-align: end;
+    /* margin-right: 30px; */
+    display: flex;
+    justify-content: end;
+/* position: relative;
+right: 20px; */
+}
